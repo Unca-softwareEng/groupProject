@@ -17,16 +17,15 @@ public class RealCollatz implements Collatz{
     public String predicateType;
     public int predicateNumber;
 
+    public RealCollatz(int lowerBound, int upperBound) {
 
-    @Override
-    public List<Integer> generateCollatzNumbers(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
-        return null;
+        this.lowerBound = lowerBound;
+        this.upperBound = upperBound;
+
     }
 
-    @Override
-    public List<CollatzCalculation> generateCalculationChain(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
-        return null;
-    }
+
+
 
     public int getLowerBound() {
         return lowerBound;
@@ -60,13 +59,14 @@ public class RealCollatz implements Collatz{
         this.predicateNumber = predicateNumber;
     }
 
-    public RealCollatz(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
 
-        this.lowerBound = lowerBound;
-        this.upperBound = upperBound;
-        this.predicateType = predicateType;
-        this.predicateNumber = predicateNumber;
+    @Override
+    public List<Integer> getCollatzNumbers(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
+        return null;
     }
 
-
+    @Override
+    public List<CollatzCalculation> getCalculations(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
+        return null;
+    }
 }

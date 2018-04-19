@@ -28,22 +28,20 @@ public class CollatzProxy implements Collatz {
 
 
     //constructor for full chain of calculation. requires a realCollatz object.
-    public CollatzProxy(RealCollatz realCollatz, int lowerBound, int upperBound, String predicateType, int predicateNumber) {
-        this.realCollatz = realCollatz;
+    public CollatzProxy( int lowerBound, int upperBound) {
         this.lowerBound = lowerBound;
         this.upperBound = upperBound;
-        this.predicateType = predicateType;
-        this.predicateNumber = predicateNumber;
+
     }
 
 
     @Override
-    public List<Integer> generateCollatzNumbers(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
+    public List<Integer> getCollatzNumbers(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
         return null;
     }
 
     @Override
-    public List<CollatzCalculation> generateCalculationChain(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
+    public List<CollatzCalculation> getCalculations(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
         return null;
     }
 

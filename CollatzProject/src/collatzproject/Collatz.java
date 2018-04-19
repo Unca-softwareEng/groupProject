@@ -11,7 +11,6 @@ import java.util.List;
  * @author Stuart Pelletier
  */
 public interface Collatz {
-    List<Integer> generateCollatzNumbers(int lowerBound, int upperBound, String predicateType, int predicateNumber);
-
-    List<CollatzCalculation> generateCalculationChain(int lowerBound, int upperBound, String predicateType, int predicateNumber);
+    List<Integer> getCollatzNumbers(int lowerBound, int upperBound, String predicateType, int predicateNumber);
+    List<CollatzCalculation> getCalculations(int lowerBound, int upperBound, String predicateType, int predicateNumber);
 }
