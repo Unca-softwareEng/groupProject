@@ -5,6 +5,8 @@
  */
 package collatzproject;
 
+import java.util.List;
+
 /**
  *
  * @author Stuart Pelletier
@@ -14,6 +16,17 @@ public class RealCollatz implements Collatz{
     private int upperBound;
     public String predicateType;
     public int predicateNumber;
+
+
+    @Override
+    public List<Integer> generateCollatzNumbers(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
+        return null;
+    }
+
+    @Override
+    public List<CollatzCalculation> generateCalculationChain(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
+        return null;
+    }
 
     public int getLowerBound() {
         return lowerBound;
@@ -54,4 +67,6 @@ public class RealCollatz implements Collatz{
         this.predicateType = predicateType;
         this.predicateNumber = predicateNumber;
     }
+
+
 }

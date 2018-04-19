@@ -5,6 +5,8 @@
  */
 package collatzproject;
 
+import java.util.List;
+
 /**
  * @author Stuart Pelletier
  */
@@ -32,6 +34,17 @@ public class CollatzProxy implements Collatz {
         this.upperBound = upperBound;
         this.predicateType = predicateType;
         this.predicateNumber = predicateNumber;
+    }
+
+
+    @Override
+    public List<Integer> generateCollatzNumbers(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
+        return null;
+    }
+
+    @Override
+    public List<CollatzCalculation> generateCalculationChain(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
+        return null;
     }
 
     public int getLowerBound() {
@@ -65,4 +78,6 @@ public class CollatzProxy implements Collatz {
     public void setPredicateNumber(int predicateNumber) {
         this.predicateNumber = predicateNumber;
     }
+
+
 }
