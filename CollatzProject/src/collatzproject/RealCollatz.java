@@ -42,6 +42,7 @@ public class RealCollatz implements Collatz{
                     temp = (3*temp) + 1;
                 }
             }
+           list.add(tempList);
         }
     }
 
