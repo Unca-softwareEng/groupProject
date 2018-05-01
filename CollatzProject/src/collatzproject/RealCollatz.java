@@ -86,7 +86,7 @@ public class RealCollatz implements Collatz{
     }
 
     @Override
-    public List<CollatzCalculation> getCalculations(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
+    public List<List<Integer>> getCalculations(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
         return null;
     }
 }

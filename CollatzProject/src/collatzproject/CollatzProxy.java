@@ -26,9 +26,23 @@ public class CollatzProxy implements Collatz {
         collatzListInitialization(lowerBound,upperBound, collatzNums);
         
     }
+    //constructor for full chain of calculation. requires a realCollatz object.
+    public CollatzProxy(RealCollatz realCollatz, int lowerBound, int upperBound) {
+        this.realCollatz = realCollatz;
+        this.lowerBound = lowerBound;
+        this.upperBound = upperBound;
+    }
+
 
 
     //initializer for collatz list. This will start with index 0 as lower, this may cause issues with indexing and can be changed
+
+    /**
+     *
+     * @param lower
+     * @param upper
+     * @param list
+     */
     private void collatzListInitialization(int lower, int upper, List<Integer> list){
         for(int i = lower; i <= upper; i++){
             int temp = i;
@@ -45,12 +59,6 @@ public class CollatzProxy implements Collatz {
         }
     }
     
-    //constructor for full chain of calculation. requires a realCollatz object.
-    public CollatzProxy( int lowerBound, int upperBound) {
-        this.lowerBound = lowerBound;
-        this.upperBound = upperBound;
-
-    }
 
 
     @Override
@@ -59,7 +67,7 @@ public class CollatzProxy implements Collatz {
     }
 
     @Override
-    public List<CollatzCalculation> getCalculations(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
+    public List<List<Integer>> getCalculations(int lowerBound, int upperBound, String predicateType, int predicateNumber) {
         return null;
     }
 
