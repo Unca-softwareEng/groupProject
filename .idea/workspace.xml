@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="765b65fb-ab6b-41db-8090-f5d3848cf47c" name="Default" comment="fixed constructors">
+    <list default="true" id="765b65fb-ab6b-41db-8090-f5d3848cf47c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CollatzProject/src/collatzproject/Collatz.java" beforeDir="false" afterPath="$PROJECT_DIR$/CollatzProject/src/collatzproject/Collatz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzCalculation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CollatzProject/src/collatzproject/RealCollatz.java" beforeDir="false" afterPath="$PROJECT_DIR$/CollatzProject/src/collatzproject/RealCollatz.java" afterDir="false" />
     </list>
@@ -18,81 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CollatzProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
-              <folding>
-                <element signature="e#1248#1262#1" expanded="true" />
-                <element signature="e#1244#1615#0" expanded="true" />
-                <element signature="e#1244#1615#0" expanded="true" />
-                <element signature="e#1244#1615#0" expanded="true" />
-                <element signature="e#1293#1306#1" expanded="true" />
-                <element signature="e#1319#1338#1" expanded="true" />
-                <element signature="e#1452#1465#0" expanded="true" />
-                <element signature="e#1804#1816#0" expanded="true" />
-                <element signature="e#1805#1811#0" expanded="true" />
-                <element signature="e#1804#1816#0" expanded="true" />
-                <element signature="e#1862#1889#0" expanded="true" />
-                <element signature="e#1862#1889#0" expanded="true" />
-                <element signature="e#2215#2216#0" expanded="true" />
-                <element signature="e#2248#2249#0" expanded="true" />
-                <element signature="e#2297#2298#0" expanded="true" />
-                <element signature="e#2341#2342#0" expanded="true" />
-                <element signature="e#2375#2376#0" expanded="true" />
-                <element signature="e#2408#2409#0" expanded="true" />
-                <element signature="e#2457#2458#0" expanded="true" />
-                <element signature="e#2501#2502#0" expanded="true" />
-                <element signature="e#2541#2542#0" expanded="true" />
-                <element signature="e#2577#2578#0" expanded="true" />
-                <element signature="e#2635#2636#0" expanded="true" />
-                <element signature="e#2685#2686#0" expanded="true" />
-                <element signature="e#2724#2725#0" expanded="true" />
-                <element signature="e#2762#2763#0" expanded="true" />
-                <element signature="e#2821#2822#0" expanded="true" />
-                <element signature="e#2875#2876#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collatz.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/Collatz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RealCollatz.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/RealCollatz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
-              <folding>
-                <element signature="e#506#523#0" expanded="true" />
-                <element signature="e#1133#1147#1" expanded="true" />
-                <element signature="e#1129#1520#0" expanded="true" />
-                <element signature="e#1129#1520#0" expanded="true" />
-                <element signature="e#1129#1520#0" expanded="true" />
-                <element signature="e#1178#1191#1" expanded="true" />
-                <element signature="e#1204#1247#1" expanded="true" />
-                <element signature="e#1229#1246#0" expanded="true" />
-                <element signature="e#1294#1312#0" expanded="true" />
-                <element signature="e#1294#1312#0" expanded="true" />
-                <element signature="e#1367#1380#0" expanded="true" />
-                <element signature="e#1434#1446#0" expanded="true" />
-                <element signature="e#1435#1441#0" expanded="true" />
-                <element signature="e#1434#1446#0" expanded="true" />
-                <element signature="e#1491#1509#0" expanded="true" />
-                <element signature="e#1491#1509#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CollatzProxyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CollatzProject/tests/collatzproject/CollatzProxyTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,11 +29,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CollatzProject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProject.java">
+      <file leaf-file-name="CollatzCalculation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzCalculation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="84">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollatzProxy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-366">
+              <caret line="117" column="24" lean-forward="true" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollatzNumbers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -129,6 +74,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -151,8 +97,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-250" />
-    <option name="y" value="-30" />
+    <option name="x" value="162" />
+    <option name="y" value="-1108" />
     <option name="width" value="1935" />
     <option name="height" value="1050" />
   </component>
@@ -162,8 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,6 +142,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +257,10 @@
       <workItem from="1524167420944" duration="204000" />
       <workItem from="1525101914270" duration="666000" />
       <workItem from="1525189621597" duration="594000" />
-      <workItem from="1525199066781" duration="1599000" />
+      <workItem from="1525199066781" duration="1817000" />
+      <workItem from="1525290270200" duration="222000" />
+      <workItem from="1525291030163" duration="664000" />
+      <workItem from="1525291808964" duration="1033000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1524014647519</created>
@@ -334,14 +283,22 @@
       <option name="project" value="LOCAL" />
       <updated>1524149053995</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed constructors and deleted CollatzCalculation class.">
+      <created>1525204103433</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525204103433</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13791000" />
+    <option name="totallyTimeSpent" value="15928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-8" y="-1088" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -356,9 +313,8 @@
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.19865772" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.1641791" />
       <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3280116" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -366,9 +322,10 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3995381" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3280116" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.3290993" />
     </layout>
@@ -384,42 +341,109 @@
     <MESSAGE value="Added constructors, tests, getters, and setters." />
     <MESSAGE value="Added stubs for interface methods." />
     <MESSAGE value="fixed constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed constructors" />
+    <MESSAGE value="fixed constructors and deleted CollatzCalculation class." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed constructors and deleted CollatzCalculation class." />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CollatzProject/tests/collatzproject/CollatzProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+          <folding>
+            <element signature="e#2599#2600#0" expanded="true" />
+            <element signature="e#2635#2636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/Collatz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/tests/collatzproject/CollatzProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/RealCollatz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+          <folding>
+            <element signature="e#2599#2600#0" expanded="true" />
+            <element signature="e#2635#2636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/Collatz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/tests/collatzproject/CollatzProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/RealCollatz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
-            <element signature="e#1248#1262#1" expanded="true" />
-            <element signature="e#1244#1615#0" expanded="true" />
-            <element signature="e#1244#1615#0" expanded="true" />
-            <element signature="e#1244#1615#0" expanded="true" />
-            <element signature="e#1293#1306#1" expanded="true" />
-            <element signature="e#1319#1338#1" expanded="true" />
-            <element signature="e#1452#1465#0" expanded="true" />
-            <element signature="e#1804#1816#0" expanded="true" />
-            <element signature="e#1805#1811#0" expanded="true" />
-            <element signature="e#1804#1816#0" expanded="true" />
-            <element signature="e#1862#1889#0" expanded="true" />
-            <element signature="e#1862#1889#0" expanded="true" />
-            <element signature="e#2215#2216#0" expanded="true" />
-            <element signature="e#2248#2249#0" expanded="true" />
-            <element signature="e#2297#2298#0" expanded="true" />
-            <element signature="e#2341#2342#0" expanded="true" />
-            <element signature="e#2375#2376#0" expanded="true" />
-            <element signature="e#2408#2409#0" expanded="true" />
-            <element signature="e#2457#2458#0" expanded="true" />
-            <element signature="e#2501#2502#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
-            <element signature="e#2577#2578#0" expanded="true" />
+            <element signature="e#2599#2600#0" expanded="true" />
             <element signature="e#2635#2636#0" expanded="true" />
-            <element signature="e#2685#2686#0" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2762#2763#0" expanded="true" />
-            <element signature="e#2821#2822#0" expanded="true" />
-            <element signature="e#2875#2876#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -431,21 +455,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzCalculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzCalculation.java" />
     <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -457,24 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#506#523#0" expanded="true" />
-            <element signature="e#1133#1147#1" expanded="true" />
-            <element signature="e#1129#1520#0" expanded="true" />
-            <element signature="e#1129#1520#0" expanded="true" />
-            <element signature="e#1129#1520#0" expanded="true" />
-            <element signature="e#1178#1191#1" expanded="true" />
-            <element signature="e#1204#1247#1" expanded="true" />
-            <element signature="e#1229#1246#0" expanded="true" />
-            <element signature="e#1294#1312#0" expanded="true" />
-            <element signature="e#1294#1312#0" expanded="true" />
-            <element signature="e#1367#1380#0" expanded="true" />
-            <element signature="e#1434#1446#0" expanded="true" />
-            <element signature="e#1435#1441#0" expanded="true" />
-            <element signature="e#1434#1446#0" expanded="true" />
-            <element signature="e#1491#1509#0" expanded="true" />
-            <element signature="e#1491#1509#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,21 +484,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzCalculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzCalculation.java" />
     <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -535,21 +513,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzCalculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzCalculation.java" />
     <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/RealCollatz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -571,21 +535,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzCalculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzCalculation.java" />
     <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/RealCollatz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -729,6 +679,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/Collatz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/RealCollatz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CollatzProject/tests/collatzproject/CollatzProxyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -736,94 +707,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProject.java">
+    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzCalculation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/Collatz.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/CollatzProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
-          <folding>
-            <element signature="e#1248#1262#1" expanded="true" />
-            <element signature="e#1244#1615#0" expanded="true" />
-            <element signature="e#1244#1615#0" expanded="true" />
-            <element signature="e#1244#1615#0" expanded="true" />
-            <element signature="e#1293#1306#1" expanded="true" />
-            <element signature="e#1319#1338#1" expanded="true" />
-            <element signature="e#1452#1465#0" expanded="true" />
-            <element signature="e#1804#1816#0" expanded="true" />
-            <element signature="e#1805#1811#0" expanded="true" />
-            <element signature="e#1804#1816#0" expanded="true" />
-            <element signature="e#1862#1889#0" expanded="true" />
-            <element signature="e#1862#1889#0" expanded="true" />
-            <element signature="e#2215#2216#0" expanded="true" />
-            <element signature="e#2248#2249#0" expanded="true" />
-            <element signature="e#2297#2298#0" expanded="true" />
-            <element signature="e#2341#2342#0" expanded="true" />
-            <element signature="e#2375#2376#0" expanded="true" />
-            <element signature="e#2408#2409#0" expanded="true" />
-            <element signature="e#2457#2458#0" expanded="true" />
-            <element signature="e#2501#2502#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
-            <element signature="e#2577#2578#0" expanded="true" />
-            <element signature="e#2635#2636#0" expanded="true" />
-            <element signature="e#2685#2686#0" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2762#2763#0" expanded="true" />
-            <element signature="e#2821#2822#0" expanded="true" />
-            <element signature="e#2875#2876#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CollatzProject/src/collatzproject/RealCollatz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
-          <folding>
-            <element signature="e#506#523#0" expanded="true" />
-            <element signature="e#1133#1147#1" expanded="true" />
-            <element signature="e#1129#1520#0" expanded="true" />
-            <element signature="e#1129#1520#0" expanded="true" />
-            <element signature="e#1129#1520#0" expanded="true" />
-            <element signature="e#1178#1191#1" expanded="true" />
-            <element signature="e#1204#1247#1" expanded="true" />
-            <element signature="e#1229#1246#0" expanded="true" />
-            <element signature="e#1294#1312#0" expanded="true" />
-            <element signature="e#1294#1312#0" expanded="true" />
-            <element signature="e#1367#1380#0" expanded="true" />
-            <element signature="e#1434#1446#0" expanded="true" />
-            <element signature="e#1435#1441#0" expanded="true" />
-            <element signature="e#1434#1446#0" expanded="true" />
-            <element signature="e#1491#1509#0" expanded="true" />
-            <element signature="e#1491#1509#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-366">
+          <caret line="117" column="24" lean-forward="true" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
         </state>
       </provider>
     </entry>
